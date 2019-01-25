@@ -1,0 +1,68 @@
+.jumbotron{
+	background-color: rgba(0,0,0,0.8);
+	color: rgb(255,255,255);
+}
+
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row{
+	margin: 0 auto;
+	width:100%;
+}
+@media screen and (orientation:landscape) {
+    .button{
+        width: 10vh;
+    	height: 20vh;
+    	border-color: rgb(0,0,0);
+    	margin: auto;
+    	
+    }
+    
+    .white{
+    	background-color: rgb(255,255,255);
+    	
+    }
+    .black{
+    	width: 8vh;
+    	height: 14vh;
+    	background-color: rgb(0,0,0);
+    	color: rgb(255,255,255);
+    }    
+    
+}
+@media screen and (orientation:portrait) {
+    .button{
+        width: 5vh;
+        height: 10vh;
+    	border-color: rgb(0,0,0);
+    	margin: auto;
+    	
+    }
+    
+    .white{
+    	background-color: rgb(255,255,255);
+    	
+    }
+    .black{
+    	width: 4vh;
+    	height: 7vh;
+    	background-color: rgb(0,0,0);
+    	color: rgb(255,255,255);
+    }    
+    
+}
+#playTextHolder{
+    margin-top: 10vh;
+}
+
+#recordBtn{
+    width: 10vh;
+    height: 10vh;
+    border-width: 0px;
+    border-radius: 100%;
+    background-color: #14E429;
+}
